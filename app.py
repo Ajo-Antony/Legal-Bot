@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'
 
 # Initialize Cohere client
-co = cohere.Client("4GTzqZ8iZrLTzJW1czAzQvzN763pSgNSuNAPWHY5")  # Replace with your actual Cohere API key
+co = cohere.Client("")  # Replace with your actual Cohere API key
 
 SYSTEM_PROMPT = """You are LawBot, an Indian legal expert.
 For each question:
